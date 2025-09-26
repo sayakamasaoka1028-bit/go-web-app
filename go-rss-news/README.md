@@ -14,50 +14,33 @@ NHKニュースのRSSを取得して表示するGoアプリです。
    git clone https://github.com/sayakamasaoka1028-bit/go-rss-news.git
    cd go-rss-news
    ```
-
+ 
    ```bash
    go get github.com/mmcdole/gofeed
    ```
-
    ```bash
    go run news.go
    ```
 
-   ```gitignore
-   # Binaries for programs and plugins
-   *.exe
-   *.exe~
-   *.dll
-   *.so
-   *.dylib
+```gitignone
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 
-   # Test binary, built with `go test -c`
-   *.test
+# Test binary, built with `go test -c`
+*.test
 
-   # Output of the go coverage tool
-   *.out
+# Output of the go coverage tool
+*.out
 
-   # Dependency directories
-   *.exe
-   # Binaries for programs and plugins
-   *.exe
-   *.exe~
-   *.dll
-   *.so
-   *.dylib
+# Dependency directories
+vendor/
 
-   # Test binary, built with `go test -c`
-   *.test
-
-   # Output of the go coverage tool
-   *.out
-
-   # Dependency directories
-   .idea/
-   .vscode/
-   *.swp
-   ```
-
-
-
-   ```
+# IDE/editor config files
+.idea/
+.vscode/
+*.swp
+```
